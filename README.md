@@ -1,3 +1,5 @@
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/MonkTeam/Ss/tree/master)#TM_Adminz
+
 # Telegram Voice-Chat Bot
 
 Just Another [Obviously better!] Telegram Voice-Chat Bot To Play Music From Various Sources In Your Group
