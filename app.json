@@ -1,0 +1,31 @@
+{
+    "name": "AiTorrentWare-Bot",
+    "description": "Telegram-Direct-Mirror to G-Drive",
+    "logo": "https://telegra.ph/file/b0526eab13658ff5e2123.jpg",
+    "keywords": [
+      "telegram",
+      "bot",
+      "aria",
+      "python"
+    ],
+    "repository": "https://github.com/MonkTeam/Voice",
+    "website": "https://t.me/AiTorrent_Ware",
+    "success_url": "https://t.me/AiTorrent_Ware",
+    "stack": "container",
+    "env": {
+      "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+      "OWNER_ID": {
+        "description": "The telegram owner.",
+        "value": "1327934109",
+        "required": true
+      }
+    },
+    "addons": [
+      {
+        "plan": "heroku-postgresql"
+      }
+    ]
+}
