@@ -10,7 +10,7 @@
     ],
     "repository": "https://github.com/MonkTeam/Voice",
     "website": "https://t.me/AiTorrent_Ware",
-    "success_url": "https://t.me/AiTorrent_Ware",
+    "success_url": "https://github.com/MonkTeam/Voice",
     "stack": "container",
     "env": {
       "ENV": {
