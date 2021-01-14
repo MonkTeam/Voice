@@ -1,6 +1,6 @@
 OpenCC
 Pillow
-Pyrogram>=0.16.0,<0.16.10
+Pyrogram==1.1.8
 TgCrypto
 youtube_dl==2021.1.3
 requests
