@@ -1,1 +1,1 @@
-worker: python3 jiosaavn/app.py
+worker: python3 tgvcbot.py
