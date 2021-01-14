@@ -1,31 +1,40 @@
 {
-    "name": "AiTorrentWare-Bot",
-    "description": "Telegram-Direct-Mirror to G-Drive",
-    "logo": "https://telegra.ph/file/b0526eab13658ff5e2123.jpg",
+    "name": "Voice-Bot",
+    "description": "Make Voice Bot",
     "keywords": [
-      "telegram",
-      "bot",
-      "aria",
-      "python"
+        "telegram",
+        "voice"
     ],
+    "website": "https://github.com/MonkTeam/Voice",
     "repository": "https://github.com/MonkTeam/Voice",
-    "website": "https://t.me/AiTorrent_Ware",
-    "success_url": "https://github.com/MonkTeam/Voice",
-    "stack": "container",
     "env": {
-      "ENV": {
-      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
-      "value": "ANYTHING"
+        "JIO_SAAVN_API": {
+            "description": "Jio Saavn API",
+            "value": "http://127.0.0.1:5000/result/?query="
+        },
+        "RADIO_LINK": {
+            "description": "Radio Link",
+            "value": "http://peridot.streamguys.com:7150/Mirchi"
+        },
+        "SUDO_CHAT_ID": {
+            "description": "Group ID",
+            "value": "-1001176749967"
+        },
+        "OWNER_ID": {
+            "description": "Telegram Owner ID",
+            "value": "1327934109"
+        }
     },
-      "OWNER_ID": {
-        "description": "The telegram owner.",
-        "value": "1327934109",
-        "required": true
-      }
-    },
-    "addons": [
-      {
-        "plan": "heroku-postgresql"
-      }
-    ]
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 2,
+            "size": "free"
+        }
+    }
 }
