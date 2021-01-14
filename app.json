@@ -7,6 +7,7 @@
     ],
     "website": "https://github.com/MonkTeam/Voice",
     "repository": "https://github.com/MonkTeam/Voice",
+    "stack": "heroku-18",
     "env": {
         "JIO_SAAVN_API": {
             "description": "Jio Saavn API",
